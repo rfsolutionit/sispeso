@@ -1,0 +1,19 @@
+site_name: SisPeso
+site_description: Documentação SisPeso.
+site_author: RF Solution IT
+
+#repo_url: https://github.com/rfsolutionit/sispeso
+edit_uri: ""
+
+nav:
+  - Home: index.md
+  - Manutenção: manutencao.md    
+  - Tarefas: tarefas.md  
+  - Relatórios: relatorios.md
+  - Ferramentas: ferramentas.md
+  - Sobre:
+    - Releases Notes: releases.md
+theme: flatly
+
+extra_css:
+    - css/extra.css
