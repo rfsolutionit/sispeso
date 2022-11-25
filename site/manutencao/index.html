@@ -128,22 +128,131 @@
                     <div class="col-md-9" role="main">
 
 <h1 id="manutencao">Manutenção</h1>
+<p><strong>Opção que permite o usuario cadastrar itens, embalagens, empresas, usuários e etc...</strong></p>
+<hr />
 <h2 id="item">Item</h2>
-<p>Possibilitar a consulta e atualização de itens.</p>
+<p><strong>Campo que possibilita vizualizar a listagem de itens e cadastrá-los.</strong></p>
 <p><img alt="" src="../img/manutencao/Imagem1.png" title="Cadastro usuário" /></p>
+<hr />
+<h4 id="novo-item"><strong>Novo Item</strong></h4>
+<p><img alt="" src="../img/buttons/novoItem.png" /></p>
 <p><strong>Principais Campos e Parâmetros:</strong></p>
-<p><img alt="" src="../img/manutencao/Imagem2.png" title="Cadastro usuário" /></p>
 <ul>
 <li><code>Item</code> - Permite informar o código do item.</li>
 <li><code>Descrição</code> - Permite informar a descrição do item.</li>
 <li><code>Código de Barras</code> - Permite informar o código de barras do item.</li>
 <li><code>UN</code> - Permite informar a unidade de negócio do item.</li>
+<li><code>Peso</code> - Insira o peso do item que está sendo cadastrado.</li>
+<li><code>Validade</code> - Informe a validade do item em dias.</li>
+<li><code>Temperatura</code> - Insira a temperatura média do item.</li>
+<li><code>DUN</code> - Insira o número da  unidade de distribuição</li>
+<li><code>Grupo Estoque</code> - Insira o o número do grupo de estoque deste produto</li>
+<li><code>Familia</code> - Informe a familia em que este produto pertence</li>
+<li><code>Comprimento</code> - Insira o comprimentp do produto</li>
+<li><code>Largura</code> - Informe a largura do item</li>
+<li><code>Altura</code> - Permite inserir a altura do </li>
 </ul>
+<p><img alt="" src="../img/manutencao/Imagem2.png" title="Cadastro usuário" /></p>
+<hr />
+<h3 id="alocar-item-x-embalagem">Alocar Item x Embalagem</h3>
+<p><img alt="" src="../img/buttons/editarItem.png" /></p>
+<p><strong>Selecione um item e clique em editar.</strong></p>
+<p><img alt="" src="../img/manutencao/imagem2.1.png" /></p>
+<p><strong>Clique em incluir e selecione uma embalagem já cadastrada</strong> <br />
+<img alt="" src="../img/manutencao/imagem2.2.png" /></p>
+<p><strong>Campos para preencher :</strong></p>
+<ul>
+<li><code>Item</code> - Codigo de identificação do item e sua descrição</li>
+<li><code>Embalagem</code> - Codigo de identificação da embalagem e sua descrição</li>
+<li><code>Sigla da Embalagem</code> - Sigla da embalagem </li>
+<li><code>Quantidade de Itens por Embalagem</code> - Insira a quantidade de itens por embalagem</li>
+<li><code>Peso Diverso</code> - Informe o peso total</li>
+</ul>
+<p><img alt="" src="../img/manutencao/imagem2.3.png" /></p>
+<hr />
 <h2 id="embalagem">Embalagem</h2>
+<p><strong>Campo que a principal função tem como o objetivo de cadastrar embalagens pra itens</strong></p>
+<p><img alt="" src="../img/manutencao/imagem3.png" /></p>
+<hr />
+<h3 id="nova-embalagem"><strong>Nova Embalagem</strong></h3>
+<p><img alt="" src="../img/buttons/novoItem.png" /></p>
+<p><strong>Principais campos para preencher :</strong></p>
+<ul>
+<li><code>Codigo</code> - Insira um codigo para a identificação da embalagem</li>
+<li><code>Descrição</code> - Permite inserir uma descrição para a caixa  </li>
+<li><code>Sigla</code> - Informe uma sigla para a embalagem</li>
+<li><code>Comprimento</code> - Insira o comprimento do recipiente</li>
+<li><code>Largura</code> - Informe a largura do pacote</li>
+<li><code>Altura</code> - Permite inserir a altura da embalagem</li>
+</ul>
+<hr />
 <h2 id="item-x-embalagem">Item x Embalagem</h2>
+<p><strong>Campo que permite vizualizar itens que estão alocados a suas embalagens</strong></p>
+<p><img alt="" src="../img/manutencao/imagem4.png" /></p>
+<hr />
 <h2 id="layout-etiqueta">Layout Etiqueta</h2>
+<p><strong>Campo com a função de cadastrar layouts para etiquetas</strong></p>
+<h4 id="nova-etiqueta"><strong>Nova Etiqueta</strong></h4>
+<p><img alt="" src="../img/buttons/novoItem.png" /></p>
+<p><strong>Campos para Preencher :</strong></p>
+<ul>
+<li><code>Descrição</code> - Insira uma descrição para a identificação da etiqueta</li>
+<li><code>Layout</code> - Informe como será o layout da etiqueta</li>
+</ul>
+<p><img alt="" src="../img/manutencao/imagem5.png" /></p>
+<hr />
 <h2 id="empresa">Empresa</h2>
-<h2 id="usuario">Usuário</h2></div>
+<p><strong>Campo com a função de cadastrar empresas</strong></p>
+<h4 id="nova-empresa"><strong>Nova Empresa</strong></h4>
+<p><img alt="" src="../img/buttons/novoItem.png" /></p>
+<p><strong>Principais campos para preencher :</strong></p>
+<ul>
+<li><code>Razão Social</code> - Insira o nome social da empresa a ser cadastrada</li>
+<li><code>Código da Empresa</code> - Informe o código da empresa</li>
+<li><code>Código do Estabelecimento</code> - Insira o código do estabelecimento</li>
+<li><code>Resposável</code> - Informe o resposável pela a empresa</li>
+<li><code>SSCC</code> - Insira o código de série da unidade logística</li>
+<li><code>CNPJ</code> - Insira o CNPJ da empresa que deseja cadastrar</li>
+<li><code>Valida Impressão</code> - Informe se valida a impressão</li>
+<li><code>Quantidade Etiquetas ZPL</code> - Informe a quantidade de etiquetas</li>
+<li>Estabilização<ul>
+<li><code>Imprimir estabilização balança?</code> - Informe se deseja imprimir uma estabilização da balança</li>
+<li><code>Quantidade de Validação</code> - Informe a quantidade de validação que deseja imprimir</li>
+</ul>
+</li>
+</ul>
+<p><img alt="" src="../img/manutencao/imagem6.png" /></p>
+<hr />
+<h2 id="usuario">Usuário</h2>
+<p><strong>Campo com a função de cadastrar novos usuários</strong></p>
+<h4 id="novo-usuario"><strong>Novo Usuário</strong></h4>
+<p><img alt="" src="../img/buttons/novoItem.png" /></p>
+<p><strong>Campos para preencher :</strong></p>
+<ul>
+<li><code>Login</code> - Insira o nome de usuário para login</li>
+<li><code>Senha</code> - Informe uma senha para o acesso</li>
+<li><code>Nome</code> - Informe o nome completo do usuário</li>
+</ul>
+<hr />
+<ol>
+<li><strong>Permissões</strong><ul>
+<li><strong>Selecione uma função para o usuário</strong></li>
+<li>Cadastro de Item</li>
+<li>Cadastro de Embalagem</li>
+<li>Relacionamento Item x Embalagem</li>
+<li>Cadastro de Layout de Etiqueta</li>
+<li>Cadastro de Empresa</li>
+<li>Cadastro de Usuário</li>
+<li>Passagem Balança</li>
+<li>Importação de Dados</li>
+<li>Eliminar Etiquetas</li>
+<li>Impressão de Etiquetas Avulsas</li>
+<li>Relatório de Etiquetas</li>
+<li>Superusuário</li>
+</ul>
+</li>
+</ol>
+<p><img alt="" src="../img/manutencao/Imagem7.png" /></p></div>
             </div>
         </div>
 
