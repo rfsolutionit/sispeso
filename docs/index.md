@@ -18,7 +18,28 @@ com balanças de pesagens e/ou impressão de etiquetas avulsas.
 </div>
 
 <div class="jumbotron">
-<h2 class="display-4 text-center">Recursos</h2>
+<h2 class="display-4 text-center" style="padding: 10px">Recursos</h2>
+
+<div class="container ">
+  <div class="card row" style="height:70px">
+    <div class="card-body">
+      <div class="row">
+        <div class="col-sm-2">
+        <a href="manutencao/index.html" style="color: #2C3E50">Manutenção</a>
+        </div>
+        <div class="col-sm-2">
+          <a href="tarefas/index.html" style="color: #2C3E50">Tarefas</a>
+        </div>
+        <div class="col-sm-2">
+          <a href="relatorios/index.html" style="color: #2C3E50">Relatório</a>
+        </div>
+        <div class="col-sm-2">
+          <a href="ferramentas/index.html" style="color: #2C3E50">Ferramentas</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <div class="row">
   <div class="col-sm-6">
