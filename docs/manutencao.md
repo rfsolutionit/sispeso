@@ -22,12 +22,12 @@
 - `Peso` - Insira o peso do item que está sendo cadastrado.
 - `Validade` - Informe a validade do item em dias.
 - `Temperatura` - Insira a temperatura média do item.
-- `DUN` - Insira o número da  unidade de distribuição
+- `DUN` - Insira o número de unidade de distribuição
 - `Grupo Estoque` - Insira o o número do grupo de estoque deste produto
 - `Familia` - Informe a familia em que este produto pertence
 - `Comprimento` - Insira o comprimentp do produto
 - `Largura` - Informe a largura do item
-- `Altura` - Insira a altura do item que deseja ser cadastrado
+- `Altura` - Insira a altura do item que deseja cadastrar
 
 ![](./img/manutencao/Imagem2.png "Cadastro usuário")
 ***
