@@ -83,3 +83,5 @@
     - `Tara da Cantoneira` - Permite inserir a tara da cantoneira
     - `Tara de Strech` - Permite inserir a tara do strech
     - `Tara Total` - Permite inserir a tara total
+
+**!!OBS: O Sistema não identifica impressoras que não tiverem o nome zebra**

@@ -24,13 +24,13 @@ com balanças de pesagens e/ou impressão de etiquetas avulsas.
   <div class="card row" style="height:70px">
     <div class="card-body">
       <div class="row">
-        <div class="col-sm-2">
+        <div class="col-sm-3" style="margin:0 30px">
         <a href="manutencao/index.html" style="color: #2C3E50">Manutenção</a>
         </div>
-        <div class="col-sm-2">
+        <div class="col-sm-3">
           <a href="tarefas/index.html" style="color: #2C3E50">Tarefas</a>
         </div>
-        <div class="col-sm-2">
+        <div class="col-sm-3">
           <a href="relatorios/index.html" style="color: #2C3E50">Relatório</a>
         </div>
         <div class="col-sm-2">
