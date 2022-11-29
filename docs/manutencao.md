@@ -27,7 +27,7 @@
 - `Familia` - Informe a familia em que este produto pertence
 - `Comprimento` - Insira o comprimentp do produto
 - `Largura` - Informe a largura do item
-- `Altura` - Permite inserir a altura do item
+- `Altura` - Insira a altura do item que deseja ser cadastrado
 
 ![](./img/manutencao/Imagem2.png "Cadastro usuário")
 ***
