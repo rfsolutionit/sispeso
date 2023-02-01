@@ -8,9 +8,9 @@
 ***
 
 ## Restaurar Dados
-**Caso alguns dados tenha perdido, basta restaura-los com backups antigos**
+**Caso alguns dados tenha perdido, basta restaurá-los com backups antigos**
 ![](./img/ferramentas/imagem1.png)
 ***
 
 ### Criar Banco de Dados
-**Caso seja preciso, ou tenha acontecido algum erro, crie um novo banco de dados**
+**Caso seja preciso, ou tenha acontecido algum erro, crie um banco de dados**

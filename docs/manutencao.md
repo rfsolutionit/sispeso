@@ -1,8 +1,8 @@
 # Manutenção
-**Opção que permite o usuario cadastrar itens, embalagens, empresas, usuários e etc...**
+**Opção que permite o usuário cadastrar itens, embalagens, empresas, usuários, etc.**
 ***
 ## Item
-**Campo que possibilita vizualizar a listagem de itens e cadastrá-los.**
+**Campo que possibilita visualizar a listagem de itens e cadastrá-los.**
 
 
 ![](./img/manutencao/Imagem1.png "Cadastro usuário")
@@ -23,9 +23,9 @@
 - `Validade` - Informe a validade do item em dias.
 - `Temperatura` - Insira a temperatura média do item.
 - `DUN` - Insira o número de unidade de distribuição
-- `Grupo Estoque` - Insira o o número do grupo de estoque deste produto
-- `Familia` - Informe a familia em que este produto pertence
-- `Comprimento` - Insira o comprimentp do produto
+- `Grupo Estoque` - Insira o número do grupo de estoque deste produto
+- `Família` - Informe a Família em que este produto pertence
+- `Comprimento` - Insira o comprimentodo produto
 - `Largura` - Informe a largura do item
 - `Altura` - Insira a altura do item que deseja cadastrar
 
@@ -44,8 +44,8 @@
 
 **Campos para preencher :**
 
-- `Item` - Codigo de identificação do item e sua descrição
-- `Embalagem` - Codigo de identificação da embalagem e sua descrição
+- `Item` - Código de identificação do item e sua descrição
+- `Embalagem` - Código de identificação da embalagem e sua descrição
 - `Sigla da Embalagem` - Sigla da embalagem 
 - `Quantidade de Itens por Embalagem` - Insira a quantidade de itens por embalagem
 - `Peso Diverso` - Informe o peso total
@@ -54,7 +54,7 @@
 
 ***
 ## Embalagem
-**Campo que a principal função tem como o objetivo de cadastrar embalagens pra itens**
+**Campo que a principal função tem como o objetivo de cadastrar embalagens para itens**
 
 ![](./img/manutencao/imagem3.png)
 
@@ -65,7 +65,7 @@
 
 **Principais campos para preencher :**
 
-- `Codigo` - Insira um codigo para a identificação da embalagem
+- `Código` - Insira um Código para a identificação da embalagem
 - `Descrição` - Permite inserir uma descrição para a caixa  
 - `Sigla` - Informe uma sigla para a embalagem
 - `Comprimento` - Insira o comprimento do recipiente
@@ -74,7 +74,7 @@
 ***
 
 ## Item x Embalagem
-**Campo que permite vizualizar itens que estão alocados a suas embalagens**
+**Campo que permite visualizar itens alocados a suas embalagens**
 
 ![](./img/manutencao/imagem4.png)
 
@@ -106,7 +106,7 @@
 - `Razão Social` - Insira o nome social da empresa a ser cadastrada
 - `Código da Empresa` - Informe o código da empresa
 - `Código do Estabelecimento` - Insira o código do estabelecimento
-- `Resposável` - Informe o resposável pela a empresa
+- `Responsável` - Informe o responsável pela empresa
 - `SSCC` - Insira o código de série da unidade logística
 - `CNPJ` - Insira o CNPJ da empresa que deseja cadastrar
 - `Valida Impressão` - Informe se valida a impressão

@@ -6,7 +6,7 @@ Documentação SisPeso
 
 O Software SisPeso é um sistema que proporciona a emissão de etiquetas. Seu maior objetivo, é
 proporcionar aos usuários, a comodidade de obter as informações impressas nas etiquetas de
-forma automática, para isso, o sistema conta com duas opções de execução: Através de conexão
+forma automática, para isso, o sistema conta com duas opções de execução: por conexão
 com balanças de pesagens e/ou impressão de etiquetas avulsas.
 
 [introductory tutorial]: getting-started.md
@@ -59,8 +59,7 @@ com balanças de pesagens e/ou impressão de etiquetas avulsas.
       <div class="card-body">
         <h3 class="card-title">Emissão de etiquetas</h3>
         <p class="card-text">
-            Emita etiquetas personalizadas de acordo
-            com a necessidade de sua empresa.
+            Emita etiquetas personalizadas conforme a necessidade de sua empresa.
         </p>
       </div>
     </div>
