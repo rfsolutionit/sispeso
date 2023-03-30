@@ -8,7 +8,7 @@
         <meta name="author" content="RF Solution IT">
         
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Relatórios - SisPeso</title>
+        <title>About - SisPeso</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
@@ -43,18 +43,18 @@
                             <li class="navitem">
                                 <a href="../tarefas/" class="nav-link">Tarefas</a>
                             </li>
-                            <li class="navitem active">
-                                <a href="./" class="nav-link">Relatórios</a>
+                            <li class="navitem">
+                                <a href="../relatorios/" class="nav-link">Relatórios</a>
                             </li>
                             <li class="navitem">
                                 <a href="../ferramentas/" class="nav-link">Ferramentas</a>
                             </li>
-                            <li class="dropdown">
+                            <li class="dropdown active">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Sobre <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../about/" class="dropdown-item">About</a>
+    <a href="./" class="dropdown-item active">About</a>
 </li>
                                     
 <li>
@@ -71,12 +71,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href="../tarefas/" class="nav-link">
+                                <a rel="prev" href="../ferramentas/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="../ferramentas/" class="nav-link">
+                                <a rel="next" href="../releases/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -98,12 +98,8 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#relatorios" class="nav-link">Relatórios</a>
+            <li class="nav-item" data-level="1"><a href="#about" class="nav-link">About</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#etiquetas-impressas" class="nav-link">Etiquetas Impressas</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
               </ul>
             </li>
         </ul>
@@ -111,20 +107,27 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="relatorios">Relatórios</h1>
-<p><strong>Está opção tem a função de gerar um relatório sobre as etiquetas impressas</strong></p>
-<hr />
-<h2 id="etiquetas-impressas">Etiquetas Impressas</h2>
-<p><strong>Gera relatório de todas as etiquetas já impressas</strong>
-<img alt="" src="../img/tarefa/imagem5.png" /></p>
-<p><strong>Principais Campos para preencher</strong></p>
+<h1 id="about">About</h1>
+<p>Este campo tem como a função de oferecer informações sobre o produto.</p>
+<p>Ao clicar na opção, uma nova tela aparecerá contendo as seguintes informação</p>
 <ul>
-<li><code>Produto</code> - Nome do produto que deseja realizar o relatório de etiquetas</li>
-<li><code>Data de Impressão</code> - Data de impressão das etiquetas</li>
-<li><code>Lote</code> - Lote de impressão das etiquetas que deseja </li>
-<li><code>Tipo do Relatório</code> - Selecione um tipo para o relatório| <strong>Retrato, Paisagem e Excel</strong></li>
-<li><code>Somente Canceladas</code> - Informe se deseja um relatório com apenas as etiquetas canceladas</li>
-</ul></div>
+<li><code>Nome do produto</code></li>
+<li><code>Versão do produto</code></li>
+<li><code>Vendedor do produto</code></li>
+<li><code>Homepage</code></li>
+<li><code>Expiração</code>   </li>
+</ul>
+<p><img alt="" src="../img/ajuda/tela-about.png" />
+<br></p>
+<hr />
+<h3 id="chave">Chave</h3>
+<p>Em tempos uma chave deve ser informada para que a data de expiração aumente, para isso deve-se clicar em chave e um novo campo aparecerá.</p>
+<ul>
+<li><code>CNPJ</code> - Informe o CNPJ da empresa.</li>
+<li><code>Chave de Acesso</code> - Informe a chave de acesso fornecida.</li>
+</ul>
+<p>Após preencher todos os campos corretamente, clique em <em>OK</em> e feche o programa e abra novamente, ao voltar no campo about, a data de expiração será atualizada</p>
+<p><img alt="" src="../img/ajuda/chva-sispeso.png" /></p></div>
             </div>
         </div>
 
